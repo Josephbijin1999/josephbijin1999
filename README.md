@@ -1,16 +1,15 @@
-## Hi there 👋
+### Hi there 👋
 
-<!--
-**Josephbijin1999/josephbijin1999** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##### I am currently a Physics PhD student at Northeastern University, Boston. I am interested in using the methods developed in Statistical Physics and Complex Systems to analyse and model Socio-Economic systems.
 
-Here are some ideas to get you started:
+##### Now
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Curruntly working with the [**Social Urban Networks Lab**](https://www.socialurban.net/) at the [**Network Science Institute**](https://www.networkscienceinstitute.org/).
+- Under the guidance of Prof. Esteban Moro, I am working on understanding Policy interventions using mobility data and trading dynamics on social trading platforms
+
+
+#### Bio
+- 2022-: PhD student at the Physics Department of Northeastern Universtiy. 
+- 2022-2024: Teaching Assitant at the Physics Department of Northeastern University.
+- 2021-2022: Research Assistant for Prof. [**Bikas K Chakrabarti**](https://www.saha.ac.in/cmp/bikask.chakrabarti/bikas.html)  @[**Saha Institute of Nuclear Physics**](https://www.saha.ac.in).
+- 2019-2021: Bachelors of Physics at [**St. Xaviers College, Mumbai**](https://xaviers.ac/)
