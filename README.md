@@ -20,4 +20,4 @@ I'm currently a **Physics PhD student** at **Northeastern University**, Boston. 
 
 ---
 
-Feel free to reach out if you’d like to discuss **Physics**, **Complex Systems**, or **Socio-Economic modeling**!
+Feel free to reach out if you’d like to discuss **Physics**, **Complex Systems**, **Socio-Economic modeling** or **anything cool**!
