@@ -18,6 +18,3 @@ I'm currently a **Physics PhD student** at **Northeastern University**, Boston. 
 - **2021–2022**: Research Assistant for Prof. [**Bikas K. Chakrabarti**](https://www.saha.ac.in/cmp/bikask.chakrabarti/bikas.html) at the [**Saha Institute of Nuclear Physics**](https://www.saha.ac.in).
 - **2019–2021**: Bachelor’s in Physics at [**St. Xavier's College, Mumbai**](https://xaviers.ac/).
 
----
-
-Feel free to reach out if you’d like to discuss **Physics**, **Complex Systems**, **Socio-Economic modeling** or **anything cool**!
