@@ -1,4 +1,4 @@
-### Namaskaram 👋
+### Hi 👋
 
 I'm currently a **Physics PhD student** at **Northeastern University**, Boston. I'm interested in using methods developed in **Statistical Physics** and **Complex Systems** to analyze and model **Socio-Economic systems**.
 
