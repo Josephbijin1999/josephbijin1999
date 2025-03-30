@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f648dc4f2d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div id = 'header'>
+    <div class="container">
+        <nav>
+            <h1 class="site-title">
+                <img src="img/logo.png" alt="Logo" class="logo"> 
+                BIJIN <br>JOSEPH
+              </h1>
+            <ul id= "sidemenu">
+                <li><a href= "#header">Home</a></li>
+                <li><a href= "#about">About</a></li>
+                <li><a href= "#projects">Projects</a></li>
+                <li><a href= "#publications">Publication</a></li>
+                <li><a href= "#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Personal website</p>
+            <h2>Hi there! My name is <br> <span>Bijin Joseph</span></h2>
+          </div>
+    </div>
+<!--------------- about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/me2.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h2 class= "sub-title">About Me</h2>
+                <p>I'm currently a Physics PhD student at Northeastern University, Boston. I'm interested in 
+                    using methods developed in Statistical Physics and Complex Systems to analyze and model 
+                    Socio-Economic systems. I am working with Prof. Esteban Moro in the <a href="https://www.socialurban.net/" target="_blank" style="color: inherit; text-decoration: underline;">
+                        Social Urban Networks Lab
+                      </a>
+                    at the <a href="https://www.networkscienceinstitute.org/" target="_blank" style="color: inherit; text-decoration: underline;">
+                        Network Science Institute </a>.</p>
+
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Policy evalution</span><br> As a part of my research, I am working with 
+                            the City of Boston to evalutate the economic and social effects of policy interventions </li>
+                            <li><span>Large scale mobility data</span><br> I work with and manage large scale data sets 
+                                like mobility and financial data</li>
+                            <li><span>Causal Inference</span><br> I use and develped causal inference methods to understand 
+                            impacts of intervenion in urban areas</li>
+                            <li><span>Snowflake</span></li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>Research Assistant @SUNLab</span><br> I am currently working as a research Assistant
+                            for Prof. Esteban Moro at the Social Urban Networks Lab</li>
+                            <li><span>Teaching Assistant for Department of Physics, Northeastern University</span>
+                            <br> I taught Physics labs and TAed for courses including Electrodynamics, Classical Mechanics
+                             and Qunatum Mechanics</li>
+                            <li><span>Research Assitant with Prof. Bikas K. Chakrabarti</span><br> I was an RA for Prof Bikas
+                            and I worked on using Kinematics to understand dynamics of wealth flow in society</li>
+                            
+                         
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>PhD in Physics (2022-)</span><br>Department of Physics, Network Science 
+                                Institute; Northeasten University, Boston, MA, USA</li>
+                            <li><span>Master of Science in Physcis(2022-2024)</span><br>Department of Physics, 
+                                Northeasten University, Boston, MA, USA</li>
+                            <li><span>Bachelor of Science in Physics(2018-2021)</span><br>St. Xavier's College, Mumbai, India</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------- projects--------------- -->
+ <div id="projects">
+    <div class="container">
+        <h2 class="sub-title">Projects</h2>
+        <div class="projects-list">
+            <div><i class="fa-solid fa-city"></i>
+                <h3>Causal Inference in the city</h3>
+                <p>Project Description</p>
+                <a href="#">Read More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <h3>Dynamics of Social Learning</h3>
+                <p>Project Description</p>
+                <a href="#">Read More</a>
+            </div>
+            <div><i class="fa-solid fa-people-arrows"></i>
+                <h3>KE Income Distribution Models</h3>
+                <p>Project Description</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+ <!-- ---------------publication----------------->    
+ <div id="publications">
+    <div class="container">
+      <h2 class="sub-title">Publications</h2>
+      <ul class="publication-list">
+        <li class="publication-item">
+          <h3>Causal inference in the city: Evaluation of policy interventions impact using mobility data</h3>
+          <p><strong>Authors:</strong> Bijin Joseph, Hamish Gibbs, Takahiro Yabe, Esteban Moro</p>
+          <p><strong>Status:</strong> in-progress</p>
+        </li>
+        <li class="publication-item">
+          <h3>Popularity vs. Performance: Dynamics of Social Learning on a Trading Platform</h3>
+          <p><strong>Authors:</strong> Bijin Joseph, Christoph Riedl, Alex Pentland, Esteban Moro</p>
+          <p><strong>Status:</strong> in-progress</p>
+        </li>
+        <li class="publication-item">
+          <h3>Kinetic Exchange Income Distribution Models with Saving Propensities: Inequality Indices and Self-Organized Poverty Level</h3>
+          <p><strong>Authors:</strong> Sanjukta Paul, Sudip Mukherjee, Bijin Joseph, Asim Ghosh, Bikas K Chakrabarti</p>
+          <p><strong>Status:</strong> published; Philosophical Transactions of the Royal Society A, 2022/5/30</p>
+        </li>
+        <li class="publication-item">
+          <h3>Variation of Gini and Kolkata indices with saving propensity in the Kinetic Exchange model of wealth distribution: An analytical study</h3>
+          <p><strong>Authors:</strong> Bijin Joseph, Bikas K Chakrabarti</p>
+          <p><strong>Status:</strong> published; Physica A: Statistical Mechanics and its Applications, 2022/5/15</p>
+        </li>
+        <!-- Additional publications can be added here -->
+      </ul>
+    </div>
+  </div>
+  <!-- ---------- contact --------------- -->
+  <div id="contact">
+    <div class="contain">
+        <h2 class="sub-title" style="color: #323131;">Contact</h2>
+        <p style="color: #323131;">Feel free to reach out to me for any queries or collaborations!</p>
+        
+        <!-- Email (remains unchanged) -->
+        <p style="color: #323131;">
+            <i class="fa-solid fa-inbox"></i> 
+            Email: <a href="mailto:bi.joseph@northeastern.edu">bi.joseph@northeastern.edu</a>
+        </p>
+
+        <!-- Social Media Icons with Clickable Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/bijin-joseph-95923a168/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/Josephbijin1999" target="_blank">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+
+    }
+
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+        
+    }
+</script>
+
+
+</body>
+</html>
